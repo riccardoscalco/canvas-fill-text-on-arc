@@ -4,7 +4,7 @@
   "description": "utility function for drawing text on an arc using the canvas API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo index.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,21 @@
     "text",
     "arc",
     "circle",
-    "html"
+    "html",
+    "browser"
   ],
   "license": "MIT",
   "author": {
     "name": "Riccardo Scalco",
     "email": "riccardoscalco@gmail.com",
     "url": "http://riccardoscalco.github.io/"
+  },
+  "devDependencies": {
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ]
   }
 }
