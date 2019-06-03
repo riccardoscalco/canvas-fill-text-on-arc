@@ -1,4 +1,4 @@
-# glsl-tiling
+# canvas-fill-text-on-arc
 
 Utility function for drawing text on an arc using the canvas API.
 
