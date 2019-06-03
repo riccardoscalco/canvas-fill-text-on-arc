@@ -1,11 +1,9 @@
-export default fillTextOnArc;
-
-function fillTextOnArc(ctx, text, cx, cy, r, spacing) {
+module.exports = function (ctx, text, cx, cy, r, spacing) {
 	for (let i = 0; i < text.length; i++) {
 		const alpha = (2 * Math.PI) * (i * spacing);
 		fillCharOnArc(ctx, text[i], cx, cy, r, alpha);
 	}
-}
+};
 
 function fillCharOnArc(ctx, char, cx, cy, r, alpha) {
 	const x = cx + (r * Math.cos(alpha));
