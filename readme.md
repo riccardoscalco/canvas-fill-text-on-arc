@@ -18,11 +18,11 @@ context.font = 'normal 14px serif';
 
 // Draw text
 fillTextOnArc(
-	context,
-	'some text',
-	cx,
-	cy,
-	radius,
-	spacing
+  context,
+  'some text',
+  cx,
+  cy,
+  radius,
+  spacing
 );
 ```
