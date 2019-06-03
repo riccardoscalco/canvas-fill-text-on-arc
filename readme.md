@@ -11,7 +11,7 @@ npm install canvas-fill-text-on-arc
 ## Usage
 
 ```js
-import fillTextOnArc from 'fill-text-on-arc';
+import fillTextOnArc from 'canvas-fill-text-on-arc';
 
 // Set font
 context.font = 'normal 14px serif';
