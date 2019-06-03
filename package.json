@@ -1,0 +1,29 @@
+{
+  "name": "canvas-fill-text-on-arc",
+  "version": "1.0.0",
+  "description": "utility function for drawing text on an arc using the canvas API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/riccardoscalco/canvas-fill-text-on-arc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riccardoscalco/canvas-fill-text-on-arc/issues"
+  },
+  "keywords": [
+    "canvas",
+    "text",
+    "arc",
+    "circle",
+    "html"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Riccardo Scalco",
+    "email": "riccardoscalco@gmail.com",
+    "url": "http://riccardoscalco.github.io/"
+  }
+}
