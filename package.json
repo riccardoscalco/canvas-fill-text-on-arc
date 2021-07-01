@@ -28,7 +28,7 @@
     "url": "http://riccardoscalco.github.io/"
   },
   "devDependencies": {
-    "xo": "^0.25.3"
+    "xo": "^0.40.3"
   },
   "xo": {
     "envs": [
